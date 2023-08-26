@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+/* selection */
+
+::selection {
+  background-color: #0096FE;
+  color: #fff;
+}
+
+.bg-color {
+  background-color: #0096FE !important;
+}
+
+/* webkit-scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c5c5c5;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #dadada;
+}
